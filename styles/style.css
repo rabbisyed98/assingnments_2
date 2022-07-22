@@ -1,0 +1,193 @@
+/* Common styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+a:hover{
+  color: crimson;
+  transition-delay: 0.2s;
+}
+
+  /* Header area css */
+
+  .container{
+    color: white;
+    background-color: #16a085;
+    text-align: center;
+    max-width: 1400px;
+    margin: 60px auto;
+    display: flex;
+    align-items: stretch;
+    padding: 50px 60px;
+    border-radius: 30px;
+    transition: transform .3s;
+  }
+
+  .container:hover{
+    transform: scale(1.05);
+  }
+
+  .header-image{
+    width: 70%;
+    height: 700px;
+    position: relative;
+    left: 400px;
+    top: 55px;
+  }
+  
+
+  .header-text{
+    width: 30%;
+    text-align: left;
+  }
+
+  .header-text h2{
+    font-size: 3em;
+  }
+
+.watch-live-btn button{
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 200px;
+  margin: 20px 0;
+  padding: 15px 30px;
+  transition: transform .2s;
+}
+
+/* .watch-live-btn button:hover{
+  transform: scale(1.5);
+} */
+#act-btn{
+  background-color: crimson;
+  color: white;
+}
+
+#act-btn a{
+  color: white;
+}
+
+.mid-area{
+  display: flex;
+}
+
+.side-nav{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin-right: 70px;
+  background-color: #16a085;
+  border-radius: 15px;
+  position: relative;
+  left: -60px;
+
+}
+
+.side-nav button{
+  color: red;
+  background-color: white;
+  width: 200px;
+  margin: 20px 0;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button a{
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: black;
+}
+
+/* Middle area css */
+.mid-area{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.side-nav{
+  height: 280px;
+}
+
+.grid-area{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-row-gap: 20px;
+}
+
+.grid-box{
+  background: 1E1E1E;
+  padding: 10px;
+  margin-bottom: 50px;
+  width: 312px;
+  height: 362px;
+
+}
+
+
+.box-heading{
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 150px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+i{
+  font-size: 1em;
+  margin: 5px 20px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.view-all-btn{
+  display: none;
+}
+
+/* Footer area css */
+
+footer{
+  background-color: #161616;
+  color: white;
+  text-align: center;
+  height: 500px;
+}
+
+footer h3{
+  font-size: 5em;
+  font-weight: bold;  
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+footer ul li{
+  padding-right: 20px;
+}
+
+.sociall-area{
+  font-size: 1.5em;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+hr{
+  margin: 0 10%;
+  opacity: 70%;
+}
